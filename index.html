@@ -1,0 +1,89 @@
+<html>
+  <head>
+  <title>DETAILS</title>
+  <style>
+  select
+        {
+          width:20%;
+          padding:10px 15px;
+          border:none;
+          background-color: #f1f1f1;
+        }
+  input[type=text]
+        {
+          width:10%;
+          padding:10px 15px;
+          border:none;
+          background-color: #f1f1f1;
+        }
+  input[type=email]
+        {
+          width:20%;
+          padding:10px 15px;
+          border:none;
+          background-color: #f1f1f1;
+        }
+  input[type=tel]
+        {
+          width:20%;
+          padding:10px 15px;
+          border:none;
+          background-color: #f1f1f1;
+        }
+  input[type=number]
+        {
+          width:10%;
+          padding:10px 15px;
+          border:none;
+          background-color: #f1f1f1;
+        }
+   input[type=submit]
+        {
+          width:20%;
+          padding:10px 15px;
+          border:none;
+          font-weight: bold;
+          background-color: #00bfff;
+          text-transform: uppercase;
+        }
+
+    div {
+          border-radius: 5px;
+          border-color: red;
+          padding: 20px;
+        }
+  </style>
+  </head>
+<body align="center">
+  <div>
+    <form method ="post">
+      <h1>Please Enter Your Details</h1>
+      <h3>Fill the application form below and submit</h3>
+      Name* <input type="text" placeholder="first name" name="firstname"><input type="text" placeholder="last name" name="lastname"><br><br>
+      E-mail address* <input type="email" placeholder="abc@gmail.com" name="email"><br><br>
+      Phone Number* <input type="tel" placeholder="phone number" name="phone_number"><br><br>
+      Gender*
+        <select name="gender">
+            <option>select</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select><br><br>
+      Citizen*
+        <select name="citizen">
+            <option>select</option>
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="Australia">Australia</option>
+            <option value="France">France</option>
+            <option value="Korea">Korea</option>
+            <option value="Germany">Germany</option>
+        </select><br><br>
+      Date of Birth* <input type="number" placeholder="date" name="date">  <input type="text" placeholder="month" name="month">  <input type="number" placeholder="year" name="year"><br><br>
+      Address*<input type="text" placeholder="street address" name="street address"> <input type="text" placeholder="street address2" name="street address2"><br><br><input type="text" placeholder="landmark" name="landmark"> <input type="text" placeholder="city" name="city"><br><br>
+      <input type="text" placeholder="state/province" name="state"> <input type="number" placeholder="Postal/zip code" name="zip_code"><br><br>
+      <input type="submit">
+    </form>
+  </div>
+</body>
+</head>
